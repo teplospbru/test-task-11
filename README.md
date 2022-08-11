@@ -2,9 +2,7 @@
 
 Сделать верстку макета с помощью React для десктопа и мобильных устройств.
 
-![Иллюстрация к проекту](https://github.com/teplospbru/test-task-11/blob/main/agency-portfolio-1.png)
-
-![Иллюстрация к проекту](https://github.com/teplospbru/test-task-11/blob/main/agency-portfolio-2.png)
+![Иллюстрация к проекту](https://github.com/teplospbru/test-task-11/blob/main/agency-portfolio-3.png)
 
 
 ## ТРЕБОВАНИЯ К ВЁРСТКЕ
@@ -47,4 +45,4 @@
 
 ### Развёрнутое приложение
 
-Увидеть работу приложения можно [здесь](https://teplospbru.github.io/agency-porfolio/).
+Увидеть работу приложения можно [здесь](https://teplospbru.github.io/agency-portfolio/).
