@@ -2,7 +2,7 @@
 
 Сделать верстку макета с помощью React для десктопа и мобильных устройств.
 
-![Иллюстрация к проекту](https://github.com/teplospbru/test-task-11/blob/main/agency-portfolio-3.png)
+![Иллюстрация к проекту](https://github.com/teplospbru/test-task-11/blob/main/agency-portfolio-3.jpg)
 
 
 ## ТРЕБОВАНИЯ К ВЁРСТКЕ
