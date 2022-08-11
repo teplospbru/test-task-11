@@ -91,7 +91,6 @@ const Main = () => {
         activeCategory();
     }, [category, activeMenuItem]);
 
-    console.log(isChosen)
     return (
         <main>
             <div className="container">
@@ -107,12 +106,13 @@ const Main = () => {
                                         key={ index + "_3" } 
                                         onClick={ () => clickCardHandler(id) } 
                                         style={ isId === id ? { borderColor: '#16cd53' } : null }
+                                        data-testid={ 'card_' + id }
                                     >
                                         <img src={ url } alt="абстрактная картинка"></img>
                                         <div className="brown-layer"></div>    
                                         <div className="card-info">
-                                            <Link to={ "/" + cat.toLowerCase() }>{ capitalize(cat) }</Link>
-                                            <h3>{ title }</h3>
+                                            <Link to={ "/" + cat.toLowerCase() } data-testid={ 'card_link_' + id }>{ capitalize(cat) }</Link>
+                                            <h3 data-testid='card_title'>{ title }</h3>
                                         </div>
                                     </div>
                                 ))
